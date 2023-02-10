@@ -1,0 +1,51 @@
+
+.exerciseHeader, .exerciseFooter, .exerciseMain {
+    margin: 0 10px 10px 10px;
+}
+
+.exerciseMainFeatures {
+    display: flex;
+    gap: 10px;
+
+}
+
+.exerciseMain {
+    display:flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.exerciseMainFeatures .exerciseMarketingFeature {
+    width: 50%;
+
+}
+
+.exerciseMainFeatures .exerciseMarketingFeature:first-child {
+
+}
+
+.exerciseAdditionalFeatures .ichi {
+ order: 2;   
+}
+
+.exerciseAdditionalFeatures .ni {
+    order: 3;
+}
+
+.exerciseAdditionalFeatures .san {
+    order: 1;
+}
+
+.exerciseAdditionalFeatures {
+    display:flex;
+    gap: 10px;
+}
+
+.exerciseAdditionalFeatures .exerciseMarketingFeature {
+    width: 33%;
+
+}
+
+.exerciseAdditionalFeatures .exerciseMarketingFeature:first-child {
+
+}
