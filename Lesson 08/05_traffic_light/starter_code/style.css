@@ -36,14 +36,14 @@ body {
   transition: background 500ms;
 }
 
-.on#stopLight {
+.potato#stopLight {
   background: red;
 }
 
-.on#slowLight {
+.potato#slowLight {
   background: goldenrod;
 }
 
-.on#goLight {
+.potato#goLight {
   background:greenyellow;
 }
